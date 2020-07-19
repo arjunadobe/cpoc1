@@ -1,0 +1,44 @@
+.camera__enable {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: white;
+}
+
+.cameraHandler__message {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50%;
+  line-height: 1.2;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+#Mycanvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cameraHandler__messageIcon {
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+.cameraHandler__unsopported {
+  display: flex;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+}
