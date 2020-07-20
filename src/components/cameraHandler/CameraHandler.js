@@ -5,7 +5,7 @@ import "./cameraHandler.css";
 
 const CameraHandler = () => {
 	const [isCameraSupported, setCameraSupported] = useState(false);
-	const { current: decoder  } = useRef(WasmDecoder.getInstance("/path2assets"));
+	const { current: decoder  } = useRef(WasmDecoder.getInstance("/cpoc1/path2assets"));
 
 	useEffect(() => {
 		if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
